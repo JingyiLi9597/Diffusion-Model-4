@@ -98,7 +98,7 @@ def launch():
     args = parser.parse_args()
     args.run_name = "DDPM_Uncondtional"
     args.epochs = 300
-    args.batch_size = 8
+    args.batch_size = 12
     args.image_size = 64
     args.dataset_path = r"C:\Users\jingy\OneDrive\Desktop\images"
     args.device = "cuda"
