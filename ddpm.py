@@ -100,7 +100,7 @@ def launch():
     args.epochs = 300
     args.batch_size = 12
     args.image_size = 64
-    args.dataset_path = r"C:\Users\jingy\OneDrive\Desktop\images"
+    args.dataset_path = "./images"
     args.device = "cuda"
     args.lr = 3e-4
     train(args)
